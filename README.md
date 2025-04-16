@@ -2,10 +2,11 @@
 
 - [JavaScript](#JavaScript)
   - [NVM](#nvm) 
-- [Python 1](#Python-1)
+- [Python](#Python)
   - [virtualenv](#virtualenv)
-  - [pyenv](#pyenv) 
-- [Python 2](#Python-2)
+  - [pyenv](#pyenv)
+- [WSL2](#WSL2)
+- [Docker-Desktop](#Docker-Desktop)
 
 ## JavaScript
 
@@ -27,11 +28,12 @@
 
 <ul>
   <li><code>nvm install {sürüm} </code> Belirlenen sürümü indirmenizi olanak tanır. Örnek: <code>nvm install 8.0.0</code></li>
+  <li><code>nvm list </code> Yüklü olan sürümleri listeler.</li>
   <li><code>nvm use {sürüm} </code> Belirlenen sürümü kullanır.</li>
   <li><code>nvm run {sürüm} app.js </code> 'app.js'yi belirlenen sürüm ile çalıştırır.</li>
 </ul>
 
-## Python-1
+## Python
 
 ## virtualenv
 
@@ -71,13 +73,13 @@ NOT: Windows kullanıyorsanız <a href="https://apps.microsoft.com/detail/9n0dx2
 
 <b>Windows</b>
 
-Windows için destek yok. Onun yerine WSL(Windows-Subsystem-Linux) ile, Linux yerinden kurabilirsiniz.
+Windows için destek yok. Onun yerine WSL(Windows-Subsystem-Linux) ile Linux yerinden kurabilirsiniz.
 
 Linux:
 
 <code>curl -fsSL https://pyenv.run | bash</code>
 
-İndirmeti yaptıktan sonra ```~/.bashrc``` dosyasının en son satırına gidip, aşağıdaki kodları ekleyin:
+İndirmeti yaptıktan sonra ```~/.bashrc``` dosyasının en son satırına gidip aşağıdaki kodları ekleyin:
 
 ```bash
 export PATH="$HOME/.pyenv/bin:$PATH"
@@ -86,4 +88,30 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
+Terminal(Shell)'i yeniden başlatın: <code>exec "$SHELL"</code>
 
+Şimdi kontrol edin: <code>pyenv</code>
+
+<h5>Kullanım</h5>
+
+<ul>
+  <li><code>pyenv install {sürüm}</code> Belirlenen Python sürümünü indirmenizi sağlar.</li>
+  <li><code>pyenv global {sürüm}</code> Belirlenen sürümü kullanıma alır.</li>
+</ul>
+
+## WSL2
+
+WSL2, Linux çekirdeğini kullanarak sanal makine işlevi görür. Hyper-V kullanarak Linux dağıtımını çalıştrır.
+
+<h5>Kurulum</h5>
+
+```Denetim Masası > Programlar > Windows özelliklerini aç veya kapat > Linux için Windows Alt sistemi```
+Sonra cihazı yeniden başlatın..
+
+<code>wsl --install</code> ile indirmeyi başlatın.
+<code>wsl --set-default-version 2</code> ile sürümü 2 yapın.
+
+Microsoft Store Üzerinden ```Ubuntu```yu bulun ve indirin. İndirme yaptıktan sonra aratma yerine Ubuntu yazıp WSL2'yi kullanmaya başlayabilirsiniz.
+
+## Docker-Desktop
+Docker, belirli yazılımları izole veya konteyner ortalmlarda çalıştırmaya olanak tanır.
