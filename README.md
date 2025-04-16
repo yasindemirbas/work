@@ -55,11 +55,11 @@ graph LR
 
 <h5>Kullanım</h5>
 
-NOT: Windows kullanıyorsanız "<a href="https://apps.microsoft.com/detail/9n0dx20hk701?hl=tr-TR&gl=TR">Terminal</a>" ya da <a href="https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=tr-TR&gl=TR">Visual Studio Code</a> üzerinden çalıştırın.
+NOT: Windows kullanıyorsanız <a href="https://apps.microsoft.com/detail/9n0dx20hk701?hl=tr-TR&gl=TR">Terminal</a> ya da <a href="https://apps.microsoft.com/detail/xp9khm4bk9fz7q?hl=tr-TR&gl=TR">Visual Studio Code</a> üzerinden çalıştırın.
 
 <ul>
-  <li><code>virtualenv {ortam adı} </code> Belirlenen ortam adı ile sanal çalışma dizini oluşturur. Örnek: <code>virtualenv ornekOrtamm</code></li>
-  <li>Sanal Ortam dizinine gidin: <code>cd {ortam-adı} </code> Sanal Ortamı Çalıştırma: <code>source bin/activate</code> Eğer Windows ise: <code>source bin/activate.bat</code></li>
+  <li><code>virtualenv {ortam adı} </code> Belirlenen ortam adı ile sanal çalışma dizini oluşturur. Örnek: <code>virtualenv ornekOrtam</code></li>
+  <li>Sanal Ortam dizinine gidin: <code>cd {ortam-adı} </code> Sanal Ortamı Çalıştırma: <code>source bin/activate</code> Eğer Windows ise: <code>source {ornekOrtam}/Scripts/activate.bat</code></li>
   <li>Çalışma alanında çıkış yapmak için: <code>deactivate</code></li>
 </ul>
 
