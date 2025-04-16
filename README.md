@@ -1,6 +1,8 @@
 # Work
 
 - [JavaScript](#JavaScript)
+- [Python 1](#Python-1)
+- [Python 2](#Python-2)
 
 ## JavaScript
 
@@ -11,5 +13,7 @@
 <h5>Kurulum:</h5>
 
 <ul>
-  <li>Linux: <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash</code> </li>
+  <li>Linux: ```sh
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+```</li>
 </ul>
