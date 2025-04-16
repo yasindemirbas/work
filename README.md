@@ -49,7 +49,7 @@ graph LR
 
 <ul>
   <li>Windows: <code>pip install virtualenv</code></li>
-  <li>Linux: <code>sudo apt install python3-virtualenv</li> ya da <code>pip install virtualenv</code>
+  <li>Linux: <code>sudo apt install python3-virtualenv </code> ya da <code>pip install virtualenv</code></li>
 </ul>
 
 <h5>Kullanım</h5>
