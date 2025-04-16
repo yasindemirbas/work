@@ -57,7 +57,7 @@ graph LR
 
 <ul>
   <li><code>virtualenv {ortam adı} </code> Belirlenen ortam adı ile sanal çalışma dizini oluşturur. Örnek: <code>virtualenv ornekOrtamm</code></li>
-  <li>Sanal Ortamı Çalıştırma: <code>source bin/activate</code> Eğer Windows ise: <code>source bin/activate.bat</code></li>
+  <li>Sanal Ortam dizinine gidin: <code>cd {ortam-adı} </code> Sanal Ortamı Çalıştırma: <code>source bin/activate</code> Eğer Windows ise: <code>source bin/activate.bat</code></li>
   <li>Çalışma alanında çıkış yapmak için: <code>deactivate</code></li>
 </ul>
 
