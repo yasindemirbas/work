@@ -64,3 +64,26 @@ NOT: Windows kullanıyorsanız <a href="https://apps.microsoft.com/detail/9n0dx2
 </ul>
 
 ## pyenv
+
+<p>Tıpkı nvm gibi, pyenv'de Python'un farklı sürümlerini kullanmanıza olanak tanıyor.</p>
+
+<h5>Kurulum</h5>
+
+<b>Windows</b>
+
+Windows için destek yok. Onun yerine WSL(Windows-Subsystem-Linux) ile, Linux yerinden kurabilirsiniz.
+
+Linux:
+
+<code>curl -fsSL https://pyenv.run | bash</code>
+
+İndirmeti yaptıktan sonra ```~/.bashrc``` dosyasının en son satırına gidip, aşağıdaki kodları ekleyin:
+
+```bash
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+```
+
+
