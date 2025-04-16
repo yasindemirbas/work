@@ -1,13 +1,13 @@
 # Work
 
 - [JavaScript](#JavaScript)
-  - [NVM](#NVM (Node Version Manager)) 
+  - [NVM](#NVM-(Node-Version-Manager)) 
 - [Python 1](#Python-1)
 - [Python 2](#Python-2)
 
 ## JavaScript
 
-## NVM (Node Version Manager)
+## NVM-(Node-Version-Manager)
 
 <p>JavaScript'in farklı versiyonlarını kullanmak için kullanılır.</p>
 
@@ -28,3 +28,5 @@
   <li><code>nvm use {sürüm} </code> Belirlenen sürümü kullanır.</li>
   <li><code>nvm run {sürüm} app.js </code> 'app.js'yi belirlenen sürüm ile çalıştırır.</li>
 </ul>
+
+## Python-1
