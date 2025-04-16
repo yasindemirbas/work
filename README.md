@@ -15,8 +15,8 @@
 <h5>Kurulum:</h5>
 
 <ul>
-  <li>Windows <a href="https://github.com/coreybutler/nvm-windows/releases">nvm-windows</a></li>
-  <li>Linux/MacOS: <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash</code> </li>
+  <li>Windows: <a href="https://github.com/coreybutler/nvm-windows/releases">nvm-windows</a></li>
+  <li>Linux: <code>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash</code> </li>
 </ul>
 
 <p>Kurulumdan sonra Terminal(Shell)'i yeniden başlatın. Linux için: <code>exec "$SHELL"</code></p>
@@ -33,3 +33,28 @@
 ## Python-1
 
 ## virtualenv
+
+<p>Python'un farklı sürümlerini kullanarak sanal bir çalıştırma ortamı oluşturur. Böylece ana cihaza yüklemeye gerek kalmaz.</p>
+
+graph LR
+  A[virtualenv] -->|Belirli Python Sürümü| Sanal Çalışma Ortamı
+
+  Python[Belirli Python Sürümü]
+
+  virtual --> I[Sanal Çalışma Ortamı]
+
+
+<h5>Kurulum:</h5>
+
+<ul>
+  <li>Windows: <code>pip install virtualenv</code></li>
+  <li>Linux: <code>sudo apt install python3-virtualenv</li> ya da <code>pip install virtualenv</code>
+</ul>
+
+<h5>Kullanım</h5>
+
+<ul>
+  <li><code>virtualenv {} </code> Belirlenen sürümü indirmenizi olanak tanır. Örnek: <code>nvm install 8.0.0</code></li>
+  <li><code>nvm use {sürüm} </code> Belirlenen sürümü kullanır.</li>
+  <li><code>nvm run {sürüm} app.js </code> 'app.js'yi belirlenen sürüm ile çalıştırır.</li>
+</ul>
