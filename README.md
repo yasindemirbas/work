@@ -7,7 +7,7 @@
 
 ## JavaScript
 
-<h4 id=#nvm>NVM (Node Version Manager)</h4>
+<h4 name=#nvm>NVM (Node Version Manager)</h4>
 
 <p>JavaScript'in farklı versiyonlarını kullanmak için kullanılır.</p>
 
