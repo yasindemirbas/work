@@ -7,7 +7,7 @@
 
 ## JavaScript
 
-### nvm
+## nvm
 
 <p>JavaScript'in farklı versiyonlarını kullanmak için kullanılır.</p>
 
