@@ -36,12 +36,14 @@
 
 <p>Python'un farklı sürümlerini kullanarak sanal bir çalıştırma ortamı oluşturur. Böylece ana cihaza yüklemeye gerek kalmaz.</p>
 
+```mermaid
 graph LR
-  A[virtualenv] -->|Belirli Python Sürümü| Sanal Çalışma Ortamı
+  A[virtualenv] -->|Python3.9| Python
+  B[virtualenv] -->|Python3.5| Python
+  C[virtualenv] -->|Python3.0| Python
 
-  Python[Belirli Python Sürümü]
-
-  virtual --> I[Sanal Çalışma Ortamı]
+  virtual[Sanal Çalışma Dizini]
+```
 
 
 <h5>Kurulum:</h5>
