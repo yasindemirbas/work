@@ -1,12 +1,13 @@
 # Work
 
 - [JavaScript](#JavaScript)
+  -[NVM](#nvm) 
 - [Python 1](#Python-1)
 - [Python 2](#Python-2)
 
 ## JavaScript
 
-<h4>NVM (Node Version Manager)</h4>
+<h4 class=#nvm>NVM (Node Version Manager)</h4>
 
 <p>JavaScript'in farklı versiyonlarını kullanmak için kullanılır.</p>
 
