@@ -1,7 +1,7 @@
 # Work
 
 - [JavaScript](#JavaScript)
-  -[NVM](#nvm) 
+  - [NVM](#nvm) 
 - [Python 1](#Python-1)
 - [Python 2](#Python-2)
 
