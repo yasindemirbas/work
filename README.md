@@ -6,7 +6,6 @@
   - [virtualenv](#virtualenv)
   - [pyenv](#pyenv)
 - [WSL2](#WSL2)
-- [Docker-Desktop](#Docker-Desktop)
 
 ## JavaScript
 
@@ -112,6 +111,3 @@ Sonra cihazı yeniden başlatın..
 <code>wsl --set-default-version 2</code> ile sürümü 2 yapın.
 
 Microsoft Store Üzerinden ```Ubuntu```yu bulun ve indirin. İndirme yaptıktan sonra aratma yerine Ubuntu yazıp WSL2'yi kullanmaya başlayabilirsiniz.
-
-## Docker-Desktop
-Docker, belirli yazılımları izole veya konteyner ortalmlarda çalıştırmaya olanak tanır.
