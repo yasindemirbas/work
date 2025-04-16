@@ -38,9 +38,9 @@
 
 ```mermaid
 graph LR
-  A[virtualenv] -->|Python3.9| Sanal Ortam
-  B[virtualenv] -->|Python3.5| Sanal Ortam
-  C[virtualenv] -->|Python3.0| Sanal Ortam
+  A[virtualenv] -->|Python3.9| Sanal-Ortam
+  B[virtualenv] -->|Python3.5| Sanal-Ortam
+  C[virtualenv] -->|Python3.0| Sanal-Ortam
 
 ```
 
