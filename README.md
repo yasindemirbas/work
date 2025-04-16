@@ -17,7 +17,7 @@
 
 <ul>
   <li>Windows: <a href="https://github.com/coreybutler/nvm-windows/releases">nvm-windows</a></li>
-  <li>Linux: ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash``` </li>
+  <li>Linux: ``` curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash ``` </li>
 </ul>
 
 <p>Kurulumdan sonra Terminal(Shell)'i yeniden başlatın. Linux için: <code>exec "$SHELL"</code></p>
