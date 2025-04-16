@@ -3,7 +3,8 @@
 - [JavaScript](#JavaScript)
   - [NVM](#nvm) 
 - [Python 1](#Python-1)
-  - [virtualenv](#virtualenv) 
+  - [virtualenv](#virtualenv)
+  - [pyenv](#pyenv) 
 - [Python 2](#Python-2)
 
 ## JavaScript
@@ -57,4 +58,7 @@ graph LR
 <ul>
   <li><code>virtualenv {ortam adı} </code> Belirlenen ortam adı ile sanal çalışma dizini oluşturur. Örnek: <code>virtualenv ornekOrtamm</code></li>
   <li>Sanal Ortamı Çalıştırma: <code>source bin/activate</code> Eğer Windows ise: <code>source bin/activate.bat</code></li>
+  <li>Çalışma alanında çıkış yapmak için: <code>deactivate</code></li>
 </ul>
+
+## pyenv
