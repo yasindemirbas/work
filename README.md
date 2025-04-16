@@ -55,7 +55,6 @@ graph LR
 <h5>Kullanım</h5>
 
 <ul>
-  <li><code>virtualenv {} </code> Belirlenen sürümü indirmenizi olanak tanır. Örnek: <code>nvm install 8.0.0</code></li>
-  <li><code>nvm use {sürüm} </code> Belirlenen sürümü kullanır.</li>
-  <li><code>nvm run {sürüm} app.js </code> 'app.js'yi belirlenen sürüm ile çalıştırır.</li>
+  <li><code>virtualenv {ortam adı} </code> Belirlenen ortam adı ile sanal çalışma dizini oluşturur. Örnek: <code>virtualenv ornekOrtamm</code></li>
+  <li>Sanal Ortamı Çalıştırma: <code>source bin/activate</code> Eğer Windows ise: <code>source bin/activate.bat</code></li>
 </ul>
