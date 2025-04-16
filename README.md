@@ -1,6 +1,8 @@
 # Work
 
-<h3>1- JavaScript</h3>
+- [JavaScript](#JavaScript)
+
+## JavaScript
 
 <h4>NVM (Node Version Manager)</h4>
 
