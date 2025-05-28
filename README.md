@@ -6,6 +6,9 @@
   - [virtualenv](#virtualenv)
   - [pyenv](#pyenv)
 - [WSL2](#WSL2)
+- [Docker-Desktop](#Docker-Desktop)
+  - [nginx](#nginx)
+  - [PostgreSQL](#PostgreSQL)
 
 ## JavaScript
 
@@ -111,3 +114,33 @@ Sonra cihazı yeniden başlatın..
 <code>wsl --set-default-version 2</code> ile sürümü 2 yapın.
 
 Microsoft Store Üzerinden ```Ubuntu```yu bulun ve indirin. İndirme yaptıktan sonra aratma yerine Ubuntu yazıp WSL2'yi kullanmaya başlayabilirsiniz.
+
+## Docker-Desktop
+
+## nginx
+
+Docker'ı kurmak için: https://www.docker.com/
+
+Giriş yaptıktan sonra sürümü kontrol edin:
+<code>docker version</code>
+
+Eğer işe yaramaz ise cihazı yeniden başlatıp deneyin.
+
+Sunucuyu ayağa kaldırma:
+<code>docker run --name {container ismi} -p 8080:80 -d nginx</code>
+
+Tarayıcdan test edin:
+<code>http://localhost:8080</code>
+
+⚠ HTTPS olmamasına ve portun doğru olduğundan emin olun!
+
+Özel dizin ile aktif etme:
+<code>docker run --name {container ismi} -p 8080:80 -v C:/www:/usr/share/nginx/html:ro -d nginx</code>
+⚠ Tam dizini yazdıktan sonra **:/usr/share/nginx/html:ro** eklemeyi unutmayın!
+
+Tarayıcdan test edin:
+<code>http://localhost:8080</code>
+
+
+## PostgreSQL
+
