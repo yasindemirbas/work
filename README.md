@@ -136,6 +136,7 @@ Tarayıcdan test edin:
 
 Özel dizin ile aktif etme:
 <code>docker run --name {container ismi} -p 8080:80 -v C:/www:/usr/share/nginx/html:ro -d nginx</code>
+
 ⚠ Tam dizini yazdıktan sonra **:/usr/share/nginx/html:ro** eklemeyi unutmayın!
 
 Tarayıcdan test edin:
