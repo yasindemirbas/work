@@ -145,3 +145,9 @@ Tarayıcdan test edin:
 
 ## PostgreSQL
 
+<code>docker run --name postgres-db -e POSTGRES_PASSWORD=gizlisifre -e POSTGRES_USER=kullanici -e POSTGRES_DB=database -p 5432:5432 -d postgres</code>
+
+**pgAdmin** gibi araçlar ile bağlantı <code>localhost:5423</code> kurabilirsiniz.
+
+<code>docker ps</code>
+İle çalışan container görünebilir.
